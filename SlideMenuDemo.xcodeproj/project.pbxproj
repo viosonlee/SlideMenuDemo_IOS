@@ -14,6 +14,11 @@
 		C0F1C4611D6C423F00F38F04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0F1C45F1D6C423F00F38F04 /* LaunchScreen.storyboard */; };
 		C0F1C46C1D6C423F00F38F04 /* SlideMenuDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F1C46B1D6C423F00F38F04 /* SlideMenuDemoTests.swift */; };
 		C0F1C4771D6C423F00F38F04 /* SlideMenuDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F1C4761D6C423F00F38F04 /* SlideMenuDemoUITests.swift */; };
+		C0F1C4851D6C42B200F38F04 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F1C4841D6C42B200F38F04 /* ContainerViewController.swift */; };
+		C0F1C4871D6C433700F38F04 /* CenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F1C4861D6C433700F38F04 /* CenterViewController.swift */; };
+		C0F1C4891D6C434500F38F04 /* LeftMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F1C4881D6C434500F38F04 /* LeftMenuViewController.swift */; };
+		C0F1C48B1D6C434E00F38F04 /* RightMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F1C48A1D6C434E00F38F04 /* RightMenuViewController.swift */; };
+		C0F1C48D1D6C466F00F38F04 /* SlideOutState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F1C48C1D6C466F00F38F04 /* SlideOutState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		C0F1C4721D6C423F00F38F04 /* SlideMenuDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideMenuDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0F1C4761D6C423F00F38F04 /* SlideMenuDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideMenuDemoUITests.swift; sourceTree = "<group>"; };
 		C0F1C4781D6C423F00F38F04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0F1C4841D6C42B200F38F04 /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		C0F1C4861D6C433700F38F04 /* CenterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenterViewController.swift; sourceTree = "<group>"; };
+		C0F1C4881D6C434500F38F04 /* LeftMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftMenuViewController.swift; sourceTree = "<group>"; };
+		C0F1C48A1D6C434E00F38F04 /* RightMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightMenuViewController.swift; sourceTree = "<group>"; };
+		C0F1C48C1D6C466F00F38F04 /* SlideOutState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideOutState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +113,11 @@
 				C0F1C45D1D6C423F00F38F04 /* Assets.xcassets */,
 				C0F1C45F1D6C423F00F38F04 /* LaunchScreen.storyboard */,
 				C0F1C4621D6C423F00F38F04 /* Info.plist */,
+				C0F1C4841D6C42B200F38F04 /* ContainerViewController.swift */,
+				C0F1C4861D6C433700F38F04 /* CenterViewController.swift */,
+				C0F1C4881D6C434500F38F04 /* LeftMenuViewController.swift */,
+				C0F1C48A1D6C434E00F38F04 /* RightMenuViewController.swift */,
+				C0F1C48C1D6C466F00F38F04 /* SlideOutState.swift */,
 			);
 			path = SlideMenuDemo;
 			sourceTree = "<group>";
@@ -257,7 +272,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0F1C4591D6C423F00F38F04 /* ViewController.swift in Sources */,
+				C0F1C4871D6C433700F38F04 /* CenterViewController.swift in Sources */,
+				C0F1C4851D6C42B200F38F04 /* ContainerViewController.swift in Sources */,
+				C0F1C48D1D6C466F00F38F04 /* SlideOutState.swift in Sources */,
 				C0F1C4571D6C423F00F38F04 /* AppDelegate.swift in Sources */,
+				C0F1C48B1D6C434E00F38F04 /* RightMenuViewController.swift in Sources */,
+				C0F1C4891D6C434500F38F04 /* LeftMenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
